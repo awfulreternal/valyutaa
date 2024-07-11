@@ -1,0 +1,11 @@
+class Updater:
+    def __init__(self, update_queue, token):
+        self.update_queue = update_queue
+        self.token = token
+
+# Ваш код исправления вызова Updater:
+# Создание экземпляра класса UpdateQueue
+update_queue = UpdateQueue()
+
+# Передача обновленной очереди в Updater
+updater = Updater(update_queue, TOKEN)
